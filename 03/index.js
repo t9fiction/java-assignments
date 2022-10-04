@@ -1,9 +1,18 @@
-  //First Variable
-  const myName = "Sohail Ishaque";
+//First Variable
+const myName = "my name is Sohail Ishaque";
 
-  //Second Variable
-  const message = "Are you dreaming to become a Metaverse Guru ?";
+const toTitleCase = (str) => {
+  const titleCaseString = str
+    .toLowerCase()
+    .split(" ")
+    .map(function (s) {
+      return s.charAt(0).toUpperCase() + s.substring(1);
+    })
+    .join(" ");
+  return titleCaseString;
+};
 
-  //Output
-  document.write("<p>Hello ",myName,"</p>");
-  document.write(message);
+//Output
+document.write("<h2>Lower Case : ", myName.toLowerCase(), "</h2>");
+document.write("<h2>Upper Case : ", myName.toUpperCase(), "</h2>");
+document.write("<h2>Title Case : ", toTitleCase(myName), "</h2>");
