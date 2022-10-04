@@ -1,6 +1,6 @@
 //First Variable
-const author = "James Cameron";
-const quote = `"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success."`;
+const famous_person = "James Cameron";
+const message = `"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success."`;
 
 //Output
-document.write("<h3>", author, ", ", quote, "</h3>");
+document.write("<h3>", famous_person, ", ", message, "</h3>");
