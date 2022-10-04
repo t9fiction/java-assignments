@@ -13,6 +13,6 @@ const toTitleCase = (str) => {
 };
 
 //Output
-document.write("<h2>Lower Case : ", myName.toLowerCase(), "</h2>");
-document.write("<h2>Upper Case : ", myName.toUpperCase(), "</h2>");
-document.write("<h2>Title Case : ", toTitleCase(myName), "</h2>");
+console.log(myName.toLowerCase())
+console.log(myName.toUpperCase())
+console.log(toTitleCase(myName))
