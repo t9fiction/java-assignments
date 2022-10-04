@@ -1,5 +1,5 @@
 //First Variable
-const myName = "my name is Sohail Ishaque";
+const myName = "Sohail Ishaque";
 
 const toTitleCase = (str) => {
   const titleCaseString = str
