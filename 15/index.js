@@ -1,6 +1,6 @@
 let persons = ["shah jee", "sufi", "ranay"]
 
-let msg = "Sham ka khana meri taraf sai AlFazal pai"
+let msg = "Dinner on me"
 
 
 for(let i=0; i<persons.length; i++){
@@ -8,7 +8,7 @@ for(let i=0; i<persons.length; i++){
   }
   
   console.log("----------------------------------------------------------")
-  console.log(persons[1].toUpperCase(), "cant make it to the dinner due to some personal matter")
+  console.log(persons[1].toUpperCase(), "cant make it to the dinner")
   console.log("----------------------------------------------------------")
   
   // Replacement of sufi

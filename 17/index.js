@@ -1,6 +1,6 @@
-let persons = ["shah jee", "sufi", "ranay"]
+let persons = ["shah jee", "sufi", "rana"]
 
-let msg = "Sham ka khana meri taraf sai AlFazal pai"
+let msg = "Friends, Dinner on my tonight"
 
 
 for(let i=0; i<persons.length; i++){
@@ -34,9 +34,10 @@ for(let i=0; i<persons.length; i++){
   console.log("----------------------------------------------------------")
   
   // Cancelling the invitations
+  //You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
   for(let i=persons.length; i>2; i--){
     const kicked_out = persons.pop()
-    console.log(kicked_out, "Bhai, table hi choti hai, mei ab kia karon. tu na aayen.")
+    console.log(kicked_out, "Bhai, table hi choti hai. tu na aayen.")
   }
   
   console.log("----------------------------------------------------------")
