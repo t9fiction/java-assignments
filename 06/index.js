@@ -1,6 +1,7 @@
 //First Variable
-const person = "     Sohail Ishaque     ";
+const person = "Sohail Ishaque";
 
 //Output
-document.write("<h3>", person, "\n \n <br/>", person, "</h3>");
-document.write("<h3>", person, "\t", person, "</h3>");
+console.log(person)
+console.log("\n",person, "\n", person);
+console.log(person, "\t", person);
