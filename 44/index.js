@@ -12,13 +12,7 @@ const items_sandwich = ["Bread", "Butter", "Garnish", "Cheese", "Salad"];
 let new_array;
 
 function sandwich() {
-  let collector;
-  for (let i = 0; i < arguments.length; i++) {
-    collector = {
-      ...collector,
-      arguments,
-    };
-  }
+  let collector = [...arguments];
   console.log("Sandiwch ordered is with : ",collector)
 }
 
