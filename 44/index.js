@@ -9,7 +9,6 @@
  */
 
 const items_sandwich = ["Bread", "Butter", "Garnish", "Cheese", "Salad"];
-let new_array;
 
 function sandwich() {
   let collector = [...arguments];
